@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menu dépliant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="deplier.js"></script>
+</head>
+
+<body>
+    <div id="nav">
+        <ul>
+            <li>
+                <a href="#" class="active"><i id="menu" onclick="boutonmenu()" class="fas fa-bars fa-2x" style="color:white;"></i></a></li>
+            <li>
+                <a href="#"><i id="connexion" class="fa fa-user" style="margin-left: 1058px; font-size: 25px;"></i>&nbsp;&nbsp;Connexion</a></li>
+
+        </ul>
+    </div>
+    <div class="vertical-menu" id="list" style="height:200px;">
+
+        <a href="#"><i class="fas fa-home" style="color:#CD5C5C;"></i>&nbsp;Accueil</a>
+        <a href="#"><i class="fas fa-shopping-cart" style="color:#CD5C5C;"></i>&nbsp;Nos produits</a>
+        <a href="#"><i class="fas fa-envelope" style="color:#CD5C5C;"></i>&nbsp;Contact</a>
+    </div>
+</body>
+
+</html>
