@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+
+nav {
+    background-color: lightgrey;
+    height: 75px;
+    margin-top: 0px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#btn {
+    color: red;
+}
+
+#btn1 {
+    color: green;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+#allumeteint {
+    margin-left: 500px;
+    padding: 40px;
+}
+
+#bouton {
+    margin-left: 525px;
+}
