@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menu dépliant et déroulant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="js/deplier.js"></script>
+</head>
+
+<body>
+    <div id="nav">
+        <ul>
+            <li>
+                <a href="#" class="active"><i id="menu" onclick="boutonmenu()" class="fas fa-bars fa-2x" style="color:white;"></i></a>
+            </li>
+
+            <li>
+                <a href="#" id="option" style="margin-left: 250px;">Service</a>
+            </li>
+            <li>
+                <a href="#" id="option">Produit</a>
+            </li>
+            <div class="deroulant">
+                <button class="option-deroulant" id="option">Nos promos
+                  <i class="fa fa-caret-down fa-1x"></i>
+                </button>
+                <div class="contenu-option">
+                    <a href="#">Promo du jour</a>
+                    <a href="#">Promo spécial</a>
+                    <a href="#">Promo achat</a>
+                </div>
+            </div>
+            <li class="connexion">
+                <a href="#"><i class="fa fa-user"></i>&nbsp;&nbsp; Connexion</a>
+            </li>
+
+        </ul>
+    </div>
+    <div class="vertical-menu" id="list" style="height:200px;">
+
+        <a href="#"><i class="fas fa-home" style="color:#CD5C5C;"></i>&nbsp;Accueil</a>
+        <a href="#"><i class="fas fa-shopping-cart" style="color:#CD5C5C;"></i>&nbsp;Nos produits</a>
+        <a href="#"><i class="fas fa-envelope" style="color:#CD5C5C;"></i>&nbsp;Contact</a>
+    </div>
+</body>
+
+</html>
